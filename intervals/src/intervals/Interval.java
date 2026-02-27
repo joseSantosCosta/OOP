@@ -1,19 +1,22 @@
-package intervals;
+package interval_oop;
 
-public class Interval{
-	int start;
-	int end;
+public class Interval {
+	private int lowerBound;
+	private int upperBound;
 	
-	static int getStart(Interval interval) {
-		return interval.start;
+	public static int getLowerBound(Interval interval) {
+		return interval.lowerBound;
 	}
-	static int getEnd(Interval interval) {
-		return interval.end;
+	
+	public static int getUpperBound(Interval interval) {
+		return interval.upperBound;
 	}
-	static void setStart(Interval interval, int start) {
-		interval.start = start;
+	
+	public static void setLowerBound(Interval interval, int newLowerBound) {
+		interval.lowerBound = newLowerBound;
 	}
-	static void setEnd(Interval interval, int end) {
-		interval.end = end;
+	
+	public static void setUpperBound(Interval interval, int newUpperBound) {
+		interval.upperBound = newUpperBound;
 	}
 }
