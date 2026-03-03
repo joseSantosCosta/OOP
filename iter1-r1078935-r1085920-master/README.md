@@ -1,0 +1,1 @@
+Assignment text available [here](https://text-896fa9.pages.gitlab.kuleuven.be/iter1.html).

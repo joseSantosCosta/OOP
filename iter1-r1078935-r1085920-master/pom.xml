@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>breakout</artifactId>
+  <name>Breakout</name>
+  <packaging>jar</packaging>
+  <parent>
+    <groupId>ogp.breakout2526</groupId>
+    <artifactId>parent-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <properties>
+  </properties>
+  <repositories>
+    <repository>
+      <id>ci-resources</id>
+      <url>https://gitlab.kuleuven.be/api/v4/projects/11337/packages/maven</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>ci-resources</id>
+      <name>CI Resources</name>
+      <url>https://gitlab.kuleuven.be/api/v4/projects/11337/packages/maven</url>
+    </pluginRepository>
+  </pluginRepositories>
+</project>
